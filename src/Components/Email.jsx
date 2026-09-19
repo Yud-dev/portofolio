@@ -58,7 +58,7 @@ const Email = () => {
                                     />
                                 </div>
 
-                                {/* Input Email */}
+                            
                                 <div className="mb-3">
                                     <input 
                                         type="email" 
@@ -69,7 +69,7 @@ const Email = () => {
                                     />
                                 </div>
 
-                                {/* Input Subject */}
+                              
                                 <div className="mb-3">
                                     <input 
                                         type="text" 
@@ -80,7 +80,7 @@ const Email = () => {
                                     />
                                 </div>
 
-                                {/* Textarea Message */}
+                           
                                 <div className="mb-4">
                                     <textarea 
                                         name="message" 
@@ -103,6 +103,7 @@ const Email = () => {
                                         <i className="ri-arrow-right-line"></i>
                                     </button>
                                 </div>
+                                
                             </form>
                         </div>
 
