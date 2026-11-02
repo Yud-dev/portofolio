@@ -20,7 +20,7 @@ const Contact = () => {
             });
     };
 
-    const whatsappNumber = "6285706205406"; 
+    const whatsappNumber = "6285726254253"; 
     
     // URL WhatsApp tanpa parameter pesan teks otomatis
     const whatsappUrl = `https://wa.me/${whatsappNumber}`;

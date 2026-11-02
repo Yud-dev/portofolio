@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from '../Components/Navbar';
-import Aboutimage from '../assets/Aboutimage.png';
+import aboutimage from '../assets/aboutimage.png';
 import WaveBackground from '../Components/WaveBackground';
 import { TypeAnimation } from 'react-type-animation';
 // import dasarpemrograman from '../assets/DASAR PEMROGRAMAN WEB SERTIFIKAT.jpg'
@@ -53,7 +53,7 @@ const About = () => {
                     <div className="relative group w-full md:w-1/3 flex justify-center">
                         <div className="absolute -inset-1 bg-gradient-to-r from-indigo-500 to-violet-500 rounded-2xl blur-lg opacity-30 group-hover:opacity-60 transition duration-500"></div>
                         <img 
-                            src={Aboutimage} 
+                            src={aboutimage} 
                             alt="Profile" 
                             className="relative w-48 h-48 md:w-64 md:h-64 rounded-xl shadow-xl object-cover border border-slate-700/50" 
                         />
